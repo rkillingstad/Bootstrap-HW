@@ -10,26 +10,28 @@ body {
     margin: auto;
 }
 
-.container {}
+.container {
+    position: relative;
+}
 
-header {
-    background: #ffffff;
-    height: 65px;
-    top: 0%;
+#Name {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: #4aaaa5;
+    color: white;
     box-sizing: border-box;
-    border: 1px solid #dddddd;
-    margin: 0 0 20px 0;
-    padding: 0 0 20px 0;
-    width: 100%;
+    border: 1px solid #4aaaa5;
 }
 
 nav {
     text-align: center;
     padding: 10px;
-    top: 0%;
     right: 0%;
     position: absolute;
-    margin: 0 0 20px 0;
+    margin-top: 5px;
+    margin-bottom: 20px;
     box-sizing: border-box;
 }
 
@@ -64,6 +66,7 @@ li a:hover {
     border: 1px solid #dddddd;
     padding: 10px;
     max-width: 760px;
+    margin-top: 10px;
 }
 
 #Title {
@@ -84,22 +87,8 @@ li a:hover {
     padding: 5px;
 }
 
-.col- {
-    width: 100%;
-}
-
-@media only screen and (max-width: 640px) {
-    body {
-        display: inline-flex;
+@media (min-width: 768px) {
+    #Name {
+        text-align: start;
     }
 }
-
-@media only screen and (max-width:768px) {
-    .col- {
-        width: 100%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {}
-
-@media (min-width: 992px) {}
