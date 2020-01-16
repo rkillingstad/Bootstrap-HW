@@ -87,6 +87,44 @@ li a:hover {
     padding: 5px;
 }
 
+.img-thumbnail {
+    display: inline-block;
+    padding: 5px;
+}
+
+#first,
+#second {
+    position: relative;
+}
+
+#object1 {
+    position: relative;
+    float: none;
+}
+
+#object2 {
+    position: relative;
+    float: none;
+}
+
+#inputs {
+    position: relative;
+}
+
+#submit {
+    padding: 10px;
+    position: relative;
+    left: 80%;
+}
+
+.form-control {
+    padding: 5px;
+}
+
+.input-group-text {
+    padding: 5px;
+}
+
 @media (min-width: 768px) {
     #Name {
         text-align: start;
